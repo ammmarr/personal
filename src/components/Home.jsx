@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import CVpicture from "../assets/CVpicturePNG.png"
+import pdf from "../assets/Resume.pdf"
 
 export default function Home() {
   const [offsetY, setOffsetY] = useState(0);
@@ -31,7 +32,7 @@ export default function Home() {
           A passionate entry level Front-end developer that you can count on.
         </p>
         <button className="button">
-          <a href="Resume.pdf" download="Resume.pdf">
+          <a href={pdf} download="Resume.pdf">
             RESUME
           </a>
           <div className="button__horizontal"></div>
