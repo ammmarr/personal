@@ -3,7 +3,8 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
- build: { outDir: "dist" },
   base: "/Ammar-s-protofolio/",
+  plugins: [react()],
+ build: { outDir: "docs" },
+  
 });
