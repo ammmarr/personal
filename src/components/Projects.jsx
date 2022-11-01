@@ -1,10 +1,10 @@
 import React from "react";
 import ProjectComponent from "./ProjectComponent";
 import FindMe from "./FindMe";
-import markdownImg from "../assets/markdownImg.png";
-import budgetCalculator from "../assets/budgetCalculator.png";
-import weatherImg from "../assets/weatherSnippet.png";
-import todoListImg from "../assets/todoListImg.png";
+import markdownImg from "/assets/markdownImg.png";
+import budgetCalculator from "/assets/budgetCalculator.png";
+import weatherImg from "/assets/weatherSnippet.png";
+import todoListImg from "/assets/todoListImg.png";
 
 export default function Projects() {
   const projectsData = [
