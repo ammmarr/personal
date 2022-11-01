@@ -1,5 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
+import CVpicture from "../assets/CVpicturePNG.png"
 
 export default function Home() {
   const [offsetY, setOffsetY] = useState(0);
@@ -38,7 +39,7 @@ export default function Home() {
         </button>
       </div>
       <div className="right-section ">
-        <img src="src\assets\CVpicturePNG.PNG"></img>
+        <img src={CVpicture}></img>
       </div>
     </div>
   );

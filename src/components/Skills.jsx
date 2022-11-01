@@ -1,6 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
-
+import htmlpng from "../assets/html (2).png"
+import csspng from "../assets/css.png"
+import javascriptpng from "../assets/javascript (1).png"
 export default function Skills() {
   const [offsetY, setOffsetY] = useState(0);
 
@@ -27,7 +29,7 @@ export default function Skills() {
       <span className="thin-line"></span>
       <div className="skills-container">
         <div className="skill-card">
-          <img src="src\assets\html (2).png" alt="html image"></img>
+          <img src={htmlpng} alt="html image"></img>
         </div>
         <div className="skill-card">
           <img src="src\assets\css.png"></img>

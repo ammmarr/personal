@@ -1,11 +1,13 @@
 {
-  "homepage":  "https://ammmarr.github.io/Ammar-s-protofolio/",
+  "homepage": "https://ammmarr.github.io/Ammar-s-protofolio",
   "name": "personal_protofolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
   },
